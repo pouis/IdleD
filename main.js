@@ -9,7 +9,7 @@ var gold = 0;
 var encount = 0;
 var sentou = 0;
 var tekiHP=100, tekiTotalHP=100, tekiAtt=1;
-var exp=0;
+var exp=1;
 var myHP=100, myTotalHP=100, myHPpc=1, myAtt=10;
 
 //save data
