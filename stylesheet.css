@@ -1,0 +1,63 @@
+/* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+body{
+    background-color:darkgrey !important; 
+}
+
+img{width: 100%;}
+
+.nav li {
+    display:table-cell !important;
+}
+
+div.container-fluid{
+    margin: auto;
+    width:;/*750px; /*375px667*/
+    height:; /*1334px;*/
+    background-color:black;
+}
+
+#areaProgress {
+    position: relative;
+    height: 20px;
+    background-color: grey;
+
+ }
+#areaBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: green;
+} 
+#areaLabel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+} 
+
+#batProgress {
+    position: relative;
+    height: 10px;
+    background-color: grey;
+
+ }
+#batBar {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: red;
+} 
+#batLabel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size:small;
+    line-height:10px;
+} 
+
+div.row{
+    color: lightgrey;
+};
